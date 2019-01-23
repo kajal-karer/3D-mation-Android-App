@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">3D-Mation</string>
+    <string name="welcome_screen">3D-Mation</string>
+    <string name="capture">Capture Images</string>
+    <string name="library">Library</string>
+    <string name="images">image</string>
+    <string name="pan">Pan left-right to view</string>
+    <string name="back">Back</string>
+    <string name="save">Save</string>
+    <string name="dlt">Delete</string>
+    <string name="share">Share</string>
+     <string name="zoom">Zoom</string>
+
+</resources>

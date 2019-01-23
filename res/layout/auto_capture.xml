@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/alpha_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffff"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/auto_capture_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:background="#13B8FF"
+        android:drawableTop="@drawable/hand"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Tap anywhare on screen to take a photo"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/backBtn"
+            android:layout_width="70dp"
+            android:layout_height="45dp"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg_green"
+            android:text="@string/back"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" >
+        </Button>
+
+        <Button
+            android:id="@+id/stopBtn"
+            android:layout_width="70dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/bg_green"
+            android:text="Stop"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" >
+        </Button>
+
+        <TextView
+            android:id="@+id/txtCounter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/stopBtn"
+            android:layout_marginRight="20dp"
+            android:textColor="#cc0000"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
